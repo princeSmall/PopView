@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D44C11F1ED2BF7100320A57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C11E1ED2BF7100320A57 /* main.m */; };
+		5D44C1221ED2BF7100320A57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C1211ED2BF7100320A57 /* AppDelegate.m */; };
+		5D44C1251ED2BF7100320A57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C1241ED2BF7100320A57 /* ViewController.m */; };
+		5D44C1281ED2BF7100320A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D44C1261ED2BF7100320A57 /* Main.storyboard */; };
+		5D44C12B1ED2BF7100320A57 /* CornerRaiduo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C1291ED2BF7100320A57 /* CornerRaiduo.xcdatamodeld */; };
+		5D44C12D1ED2BF7100320A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D44C12C1ED2BF7100320A57 /* Assets.xcassets */; };
+		5D44C1301ED2BF7100320A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D44C12E1ED2BF7100320A57 /* LaunchScreen.storyboard */; };
+		5D44C13B1ED2BF7200320A57 /* CornerRaiduoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C13A1ED2BF7200320A57 /* CornerRaiduoTests.m */; };
+		5D44C1461ED2BF7200320A57 /* CornerRaiduoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C1451ED2BF7200320A57 /* CornerRaiduoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D44C1371ED2BF7200320A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D44C1121ED2BF7100320A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D44C1191ED2BF7100320A57;
+			remoteInfo = CornerRaiduo;
+		};
+		5D44C1421ED2BF7200320A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D44C1121ED2BF7100320A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D44C1191ED2BF7100320A57;
+			remoteInfo = CornerRaiduo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D44C11A1ED2BF7100320A57 /* CornerRaiduo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornerRaiduo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D44C11E1ED2BF7100320A57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D44C1201ED2BF7100320A57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D44C1211ED2BF7100320A57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D44C1231ED2BF7100320A57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D44C1241ED2BF7100320A57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D44C1271ED2BF7100320A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D44C12A1ED2BF7100320A57 /* CornerRaiduo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CornerRaiduo.xcdatamodel; sourceTree = "<group>"; };
+		5D44C12C1ED2BF7100320A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D44C12F1ED2BF7100320A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D44C1311ED2BF7100320A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D44C1361ED2BF7200320A57 /* CornerRaiduoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornerRaiduoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D44C13A1ED2BF7200320A57 /* CornerRaiduoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerRaiduoTests.m; sourceTree = "<group>"; };
+		5D44C13C1ED2BF7200320A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D44C1411ED2BF7200320A57 /* CornerRaiduoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornerRaiduoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D44C1451ED2BF7200320A57 /* CornerRaiduoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerRaiduoUITests.m; sourceTree = "<group>"; };
+		5D44C1471ED2BF7200320A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D44C1171ED2BF7100320A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D44C1331ED2BF7200320A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D44C13E1ED2BF7200320A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D44C1111ED2BF7100320A57 = {
+			isa = PBXGroup;
+			children = (
+				5D44C11C1ED2BF7100320A57 /* CornerRaiduo */,
+				5D44C1391ED2BF7200320A57 /* CornerRaiduoTests */,
+				5D44C1441ED2BF7200320A57 /* CornerRaiduoUITests */,
+				5D44C11B1ED2BF7100320A57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D44C11B1ED2BF7100320A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D44C11A1ED2BF7100320A57 /* CornerRaiduo.app */,
+				5D44C1361ED2BF7200320A57 /* CornerRaiduoTests.xctest */,
+				5D44C1411ED2BF7200320A57 /* CornerRaiduoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D44C11C1ED2BF7100320A57 /* CornerRaiduo */ = {
+			isa = PBXGroup;
+			children = (
+				5D44C1201ED2BF7100320A57 /* AppDelegate.h */,
+				5D44C1211ED2BF7100320A57 /* AppDelegate.m */,
+				5D44C1231ED2BF7100320A57 /* ViewController.h */,
+				5D44C1241ED2BF7100320A57 /* ViewController.m */,
+				5D44C1261ED2BF7100320A57 /* Main.storyboard */,
+				5D44C12C1ED2BF7100320A57 /* Assets.xcassets */,
+				5D44C12E1ED2BF7100320A57 /* LaunchScreen.storyboard */,
+				5D44C1311ED2BF7100320A57 /* Info.plist */,
+				5D44C1291ED2BF7100320A57 /* CornerRaiduo.xcdatamodeld */,
+				5D44C11D1ED2BF7100320A57 /* Supporting Files */,
+			);
+			path = CornerRaiduo;
+			sourceTree = "<group>";
+		};
+		5D44C11D1ED2BF7100320A57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D44C11E1ED2BF7100320A57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D44C1391ED2BF7200320A57 /* CornerRaiduoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D44C13A1ED2BF7200320A57 /* CornerRaiduoTests.m */,
+				5D44C13C1ED2BF7200320A57 /* Info.plist */,
+			);
+			path = CornerRaiduoTests;
+			sourceTree = "<group>";
+		};
+		5D44C1441ED2BF7200320A57 /* CornerRaiduoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D44C1451ED2BF7200320A57 /* CornerRaiduoUITests.m */,
+				5D44C1471ED2BF7200320A57 /* Info.plist */,
+			);
+			path = CornerRaiduoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D44C1191ED2BF7100320A57 /* CornerRaiduo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D44C14A1ED2BF7200320A57 /* Build configuration list for PBXNativeTarget "CornerRaiduo" */;
+			buildPhases = (
+				5D44C1161ED2BF7100320A57 /* Sources */,
+				5D44C1171ED2BF7100320A57 /* Frameworks */,
+				5D44C1181ED2BF7100320A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CornerRaiduo;
+			productName = CornerRaiduo;
+			productReference = 5D44C11A1ED2BF7100320A57 /* CornerRaiduo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D44C1351ED2BF7200320A57 /* CornerRaiduoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D44C14D1ED2BF7200320A57 /* Build configuration list for PBXNativeTarget "CornerRaiduoTests" */;
+			buildPhases = (
+				5D44C1321ED2BF7200320A57 /* Sources */,
+				5D44C1331ED2BF7200320A57 /* Frameworks */,
+				5D44C1341ED2BF7200320A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D44C1381ED2BF7200320A57 /* PBXTargetDependency */,
+			);
+			name = CornerRaiduoTests;
+			productName = CornerRaiduoTests;
+			productReference = 5D44C1361ED2BF7200320A57 /* CornerRaiduoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D44C1401ED2BF7200320A57 /* CornerRaiduoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D44C1501ED2BF7200320A57 /* Build configuration list for PBXNativeTarget "CornerRaiduoUITests" */;
+			buildPhases = (
+				5D44C13D1ED2BF7200320A57 /* Sources */,
+				5D44C13E1ED2BF7200320A57 /* Frameworks */,
+				5D44C13F1ED2BF7200320A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D44C1431ED2BF7200320A57 /* PBXTargetDependency */,
+			);
+			name = CornerRaiduoUITests;
+			productName = CornerRaiduoUITests;
+			productReference = 5D44C1411ED2BF7200320A57 /* CornerRaiduoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D44C1121ED2BF7100320A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tong;
+				TargetAttributes = {
+					5D44C1191ED2BF7100320A57 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					5D44C1351ED2BF7200320A57 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D44C1191ED2BF7100320A57;
+					};
+					5D44C1401ED2BF7200320A57 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D44C1191ED2BF7100320A57;
+					};
+				};
+			};
+			buildConfigurationList = 5D44C1151ED2BF7100320A57 /* Build configuration list for PBXProject "CornerRaiduo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D44C1111ED2BF7100320A57;
+			productRefGroup = 5D44C11B1ED2BF7100320A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D44C1191ED2BF7100320A57 /* CornerRaiduo */,
+				5D44C1351ED2BF7200320A57 /* CornerRaiduoTests */,
+				5D44C1401ED2BF7200320A57 /* CornerRaiduoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D44C1181ED2BF7100320A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D44C1301ED2BF7100320A57 /* LaunchScreen.storyboard in Resources */,
+				5D44C12D1ED2BF7100320A57 /* Assets.xcassets in Resources */,
+				5D44C1281ED2BF7100320A57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D44C1341ED2BF7200320A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D44C13F1ED2BF7200320A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D44C1161ED2BF7100320A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D44C1251ED2BF7100320A57 /* ViewController.m in Sources */,
+				5D44C1221ED2BF7100320A57 /* AppDelegate.m in Sources */,
+				5D44C12B1ED2BF7100320A57 /* CornerRaiduo.xcdatamodeld in Sources */,
+				5D44C11F1ED2BF7100320A57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D44C1321ED2BF7200320A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D44C13B1ED2BF7200320A57 /* CornerRaiduoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D44C13D1ED2BF7200320A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D44C1461ED2BF7200320A57 /* CornerRaiduoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D44C1381ED2BF7200320A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D44C1191ED2BF7100320A57 /* CornerRaiduo */;
+			targetProxy = 5D44C1371ED2BF7200320A57 /* PBXContainerItemProxy */;
+		};
+		5D44C1431ED2BF7200320A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D44C1191ED2BF7100320A57 /* CornerRaiduo */;
+			targetProxy = 5D44C1421ED2BF7200320A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D44C1261ED2BF7100320A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D44C1271ED2BF7100320A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D44C12E1ED2BF7100320A57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D44C12F1ED2BF7100320A57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D44C1481ED2BF7200320A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D44C1491ED2BF7200320A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D44C14B1ED2BF7200320A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CornerRaiduo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.CornerRaiduo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D44C14C1ED2BF7200320A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CornerRaiduo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.CornerRaiduo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D44C14E1ED2BF7200320A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CornerRaiduoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.CornerRaiduoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CornerRaiduo.app/CornerRaiduo";
+			};
+			name = Debug;
+		};
+		5D44C14F1ED2BF7200320A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CornerRaiduoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.CornerRaiduoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CornerRaiduo.app/CornerRaiduo";
+			};
+			name = Release;
+		};
+		5D44C1511ED2BF7200320A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CornerRaiduoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.CornerRaiduoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CornerRaiduo;
+			};
+			name = Debug;
+		};
+		5D44C1521ED2BF7200320A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CornerRaiduoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.CornerRaiduoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CornerRaiduo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D44C1151ED2BF7100320A57 /* Build configuration list for PBXProject "CornerRaiduo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D44C1481ED2BF7200320A57 /* Debug */,
+				5D44C1491ED2BF7200320A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D44C14A1ED2BF7200320A57 /* Build configuration list for PBXNativeTarget "CornerRaiduo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D44C14B1ED2BF7200320A57 /* Debug */,
+				5D44C14C1ED2BF7200320A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D44C14D1ED2BF7200320A57 /* Build configuration list for PBXNativeTarget "CornerRaiduoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D44C14E1ED2BF7200320A57 /* Debug */,
+				5D44C14F1ED2BF7200320A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D44C1501ED2BF7200320A57 /* Build configuration list for PBXNativeTarget "CornerRaiduoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D44C1511ED2BF7200320A57 /* Debug */,
+				5D44C1521ED2BF7200320A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D44C1291ED2BF7100320A57 /* CornerRaiduo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D44C12A1ED2BF7100320A57 /* CornerRaiduo.xcdatamodel */,
+			);
+			currentVersion = 5D44C12A1ED2BF7100320A57 /* CornerRaiduo.xcdatamodel */;
+			path = CornerRaiduo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5D44C1121ED2BF7100320A57 /* Project object */;
+}
