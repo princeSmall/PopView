@@ -9,14 +9,52 @@
 #import "TwoViewController.h"
 
 @interface TwoViewController ()
-
+@property (nonatomic,strong)UIView * bottomView;
 @end
 
 @implementation TwoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor greenColor];
+    self.navigationItem.title= @"TwoViewController";
+    UIButton  * orangeButton = [[UIButton alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 2-100, 60, 100, 50)];
+    orangeButton.backgroundColor =[UIColor redColor];
+    [orangeButton addTarget:self action:@selector(bottomShow) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:orangeButton];
+    
+    UIButton  * blueButton = [[UIButton alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 2, 60, 100, 50)];
+    blueButton.backgroundColor =[UIColor blueColor];
+    [blueButton addTarget:self action:@selector(bottomMiss) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:blueButton];
     // Do any additional setup after loading the view.
+}
+-(UIView *)bottomView{
+    if (_bottomView==nil) {
+        _bottomView = [[UIView alloc]init];
+        _bottomView.backgroundColor = [UIColor purpleColor];
+        [self.view addSubview:_bottomView];
+    }
+    return _bottomView;
+}
+-(void)bottomShow{
+    self.bottomView.frame = CGRectMake(20, self.view.frame.size.height, self.view.frame.size.width-40, self.view.frame.size.height-100);
+    [UIView animateWithDuration:.5 animations:^{
+        CGRect rect = self.bottomView.frame;
+        rect.origin.y -= 400;
+        self.bottomView.frame = rect;
+    } completion:^(BOOL finished) {
+        NSLog(@"bottomShow");
+    }];
+}
+-(void)bottomMiss{
+    [UIView animateWithDuration:.5 animations:^{
+        CGRect rect = self.bottomView.frame;
+        rect.origin.y += 400;
+        self.bottomView.frame = rect;
+    } completion:^(BOOL finished) {
+        NSLog(@"bottomMiss");
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

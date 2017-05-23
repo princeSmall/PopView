@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "OneViewController.h"
+#import "TwoViewController.h"
+#import "ThreeViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,6 +21,38 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    OneViewController * oneView = [[OneViewController alloc]init];
+    TwoViewController * twoView = [[TwoViewController alloc]init];
+    ThreeViewController * threeView = [[ThreeViewController alloc]init];
+    
+
+    NSArray * titleArray = @[@"one",@"two",@"three"];
+    NSArray * controlArray = @[oneView,twoView,threeView];
+    NSArray * imageArray = @[@"group_NC",@"home_NC",@"lunch_NC"];
+    NSArray * SelectImageArray = @[@"group",@"home",@"lunch"];
+    NSMutableArray * controls =[NSMutableArray array];
+    
+    for (int i = 0 ; i <titleArray.count; i ++) {
+        UIViewController * view = controlArray[i];
+        UINavigationController * Nv = [[UINavigationController alloc]initWithRootViewController:view];
+        Nv.tabBarItem.imageInsets = UIEdgeInsetsMake(2, 0, -2, 0);
+        Nv.tabBarItem.image = [[UIImage imageNamed:imageArray[i]]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        Nv.tabBarItem.title = titleArray[i];
+        Nv.tabBarItem.selectedImage =[[UIImage imageNamed:SelectImageArray[i]]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        [Nv.tabBarItem setTitlePositionAdjustment:UIOffsetMake(-5, -5)];
+        [controls addObject:Nv];
+    }
+    
+    
+    UITabBarController * barController = [UITabBarController new];
+    barController.viewControllers= controls;
+    self.window.rootViewController =barController;
+    
+    UITabBar * tabBar = barController.tabBar;
+    [tabBar setTintColor:[UIColor orangeColor]];
+    
+
     // Override point for customization after application launch.
     return YES;
 }

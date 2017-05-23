@@ -12,10 +12,13 @@
 		5D44C1251ED2BF7100320A57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C1241ED2BF7100320A57 /* ViewController.m */; };
 		5D44C1281ED2BF7100320A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D44C1261ED2BF7100320A57 /* Main.storyboard */; };
 		5D44C12B1ED2BF7100320A57 /* CornerRaiduo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C1291ED2BF7100320A57 /* CornerRaiduo.xcdatamodeld */; };
-		5D44C12D1ED2BF7100320A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D44C12C1ED2BF7100320A57 /* Assets.xcassets */; };
 		5D44C1301ED2BF7100320A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D44C12E1ED2BF7100320A57 /* LaunchScreen.storyboard */; };
 		5D44C13B1ED2BF7200320A57 /* CornerRaiduoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C13A1ED2BF7200320A57 /* CornerRaiduoTests.m */; };
 		5D44C1461ED2BF7200320A57 /* CornerRaiduoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C1451ED2BF7200320A57 /* CornerRaiduoUITests.m */; };
+		5D44C1551ED3BBC100320A57 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C1541ED3BBC000320A57 /* OneViewController.m */; };
+		5D44C1581ED3BBCD00320A57 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C1571ED3BBCD00320A57 /* TwoViewController.m */; };
+		5D44C15B1ED3BBDA00320A57 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C15A1ED3BBDA00320A57 /* ThreeViewController.m */; };
+		5D44C15F1ED3CA8A00320A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D44C15E1ED3CA8A00320A57 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,6 @@
 		5D44C1241ED2BF7100320A57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5D44C1271ED2BF7100320A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D44C12A1ED2BF7100320A57 /* CornerRaiduo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CornerRaiduo.xcdatamodel; sourceTree = "<group>"; };
-		5D44C12C1ED2BF7100320A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D44C12F1ED2BF7100320A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D44C1311ED2BF7100320A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D44C1361ED2BF7200320A57 /* CornerRaiduoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornerRaiduoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,13 @@
 		5D44C1411ED2BF7200320A57 /* CornerRaiduoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornerRaiduoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D44C1451ED2BF7200320A57 /* CornerRaiduoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerRaiduoUITests.m; sourceTree = "<group>"; };
 		5D44C1471ED2BF7200320A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D44C1531ED3BBC000320A57 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		5D44C1541ED3BBC000320A57 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		5D44C1561ED3BBCD00320A57 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		5D44C1571ED3BBCD00320A57 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		5D44C1591ED3BBDA00320A57 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		5D44C15A1ED3BBDA00320A57 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		5D44C15E1ED3CA8A00320A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +117,13 @@
 				5D44C1231ED2BF7100320A57 /* ViewController.h */,
 				5D44C1241ED2BF7100320A57 /* ViewController.m */,
 				5D44C1261ED2BF7100320A57 /* Main.storyboard */,
-				5D44C12C1ED2BF7100320A57 /* Assets.xcassets */,
+				5D44C1531ED3BBC000320A57 /* OneViewController.h */,
+				5D44C1541ED3BBC000320A57 /* OneViewController.m */,
+				5D44C1561ED3BBCD00320A57 /* TwoViewController.h */,
+				5D44C1571ED3BBCD00320A57 /* TwoViewController.m */,
+				5D44C1591ED3BBDA00320A57 /* ThreeViewController.h */,
+				5D44C15A1ED3BBDA00320A57 /* ThreeViewController.m */,
+				5D44C15E1ED3CA8A00320A57 /* Assets.xcassets */,
 				5D44C12E1ED2BF7100320A57 /* LaunchScreen.storyboard */,
 				5D44C1311ED2BF7100320A57 /* Info.plist */,
 				5D44C1291ED2BF7100320A57 /* CornerRaiduo.xcdatamodeld */,
@@ -250,7 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D44C1301ED2BF7100320A57 /* LaunchScreen.storyboard in Resources */,
-				5D44C12D1ED2BF7100320A57 /* Assets.xcassets in Resources */,
+				5D44C15F1ED3CA8A00320A57 /* Assets.xcassets in Resources */,
 				5D44C1281ED2BF7100320A57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D44C1251ED2BF7100320A57 /* ViewController.m in Sources */,
+				5D44C15B1ED3BBDA00320A57 /* ThreeViewController.m in Sources */,
+				5D44C1551ED3BBC100320A57 /* OneViewController.m in Sources */,
 				5D44C1221ED2BF7100320A57 /* AppDelegate.m in Sources */,
+				5D44C1581ED3BBCD00320A57 /* TwoViewController.m in Sources */,
 				5D44C12B1ED2BF7100320A57 /* CornerRaiduo.xcdatamodeld in Sources */,
 				5D44C11F1ED2BF7100320A57 /* main.m in Sources */,
 			);
@@ -511,6 +529,7 @@
 				5D44C14C1ED2BF7200320A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D44C14D1ED2BF7200320A57 /* Build configuration list for PBXNativeTarget "CornerRaiduoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +538,7 @@
 				5D44C14F1ED2BF7200320A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D44C1501ED2BF7200320A57 /* Build configuration list for PBXNativeTarget "CornerRaiduoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +547,7 @@
 				5D44C1521ED2BF7200320A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
